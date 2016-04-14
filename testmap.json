@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "testmap",
+    "_type": "visualization",
+    "_source": {
+      "title": "testmap",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatRadius\":25,\"heatBlur\":15,\"heatNormalizeData\":true,\"wms\":{\"enabled\":false,\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\",\"options\":{\"version\":\"1.3.0\",\"layers\":\"0\",\"format\":\"image/png\",\"transparent\":true,\"attribution\":\"Maps provided by USGS\",\"styles\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"nfl\"}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"split\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"row\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "test4",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  }
+]
