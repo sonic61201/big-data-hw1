@@ -6,7 +6,7 @@
 
 I use Elasticsearch and Logstash and Kibana that Mark taught us before.
 
-My keyword of my search is "NFL", National Football League. Why I use it? It just because I love football. 
+My keyword of my search is "NFL", National Football League. Why I use it? Because I love football. 
 
 Kibana has some tools to let me format my exported file, like counts, date, histogram and it can even show the map.   
 
